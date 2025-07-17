@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net9.0-ios</TargetFrameworks>
+		<OutputType>Exe</OutputType>
+		<RootNamespace>MauiBugRepro</RootNamespace>
+		<ApplicationId>com.companyname.mauibugrepro</ApplicationId>
+		<Nullable>enable</Nullable>
+		<WarningsAsErrors>$(WarningsAsErrors);CA1416;CA1422</WarningsAsErrors>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">12.2</SupportedOSPlatformVersion>
+	</PropertyGroup>
+
+</Project>
