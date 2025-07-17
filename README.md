@@ -40,9 +40,9 @@ This is because the `<WarningsAsErrors>CA1416</WarningsAsErrors>` tag in the `.c
   - OS Platform: `Darwin`
   - RID: `osx-x64`
 - **Workloads:**
-  - maui-ios: `9.0.300/9.0.100`
-  - maui-android: `9.0.300/9.0.100`
-  - maui: `9.0.300/9.0.100`
+  - maui: `9.0.51/9.0.100`
+  - maui-android: `9.0.51/9.0.100`
+  - maui-ios: `9.0.51/9.0.100`
 - **Xcode:**
   - Version: `16.4`
   - Build version: `16F6`
